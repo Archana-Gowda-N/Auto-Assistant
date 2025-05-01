@@ -28,7 +28,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0f2c, #1c2a48);
+            background: 
+            /* linear-gradient(rgba(10, 15, 44, 0.85), rgba(28, 42, 72, 0.85)), */
+            url('https://media.istockphoto.com/id/1347150429/photo/professional-mechanic-working-on-the-engine-of-the-car-in-the-garage.webp?a=1&b=1&s=612x612&w=0&k=20&c=I9kCVeGbPl3yrto59PFC7ErW8i27mJ1pD5ohzdBADFI=') 
+            no-repeat center center fixed;
+            background-size: cover;
+       
+            /* background: linear-gradient(135deg, #0a0f2c, #1c2a48); */
             height: 100vh;
             display: flex;
             justify-content: center;

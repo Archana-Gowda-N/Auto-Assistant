@@ -160,6 +160,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <textarea name="issue" placeholder="Describe issue" required></textarea><br>
             <button type="submit">Submit Request</button>
         </form>
+
+        
     </div>
 
     <!-- Link to navigate to Repair Services -->

@@ -159,7 +159,7 @@ $result = $conn->query($query);
 
     <!-- Navigation to Repair Services page -->
     <div class="navigation-link">
-        <a href="shop_repair_services.php">Go to Repair Services</a>
+        <a href="repair_shop_services.php">Go to Repair Services</a>
     </div>
 </div>
 
